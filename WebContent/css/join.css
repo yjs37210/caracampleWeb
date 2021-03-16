@@ -1,0 +1,54 @@
+/* 회원가입 백그라운드*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../images/login_bg.png');
+}
+
+/*네비게이션*/
+.navbar {
+	background: red;
+	heigth: 0px;
+}
+
+h3 {
+	font-size: 28px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.wrap {
+	position: relative;
+}
+
+.join_txt>a {
+	color: #fff;
+}
+/*회원가입  페이지 백그 css*/
+.container_bg {
+	width: 480px;
+	height: 380px;
+	background: #ccc;
+	opacity: 0.4;
+	position: absolute;
+	top: 20%;
+	left: 16%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin-top: 16%;
+	margin-left: 20%;
+	top: 20%;
+}
+/*회원가입 페이지 css*/
+#container {
+	z-index: 50;
+	position: absolute;
+	top: 20%;
+	margin-top: 16.5%;
+	margin-left: 18%;
+}

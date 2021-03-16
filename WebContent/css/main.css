@@ -1,0 +1,77 @@
+/* main css*/
+a:hover {
+	text-decoration: none;
+}
+
+/* 상단css less에 먹어서 임의로 줄임*/
+#nav_height {
+	height: 48px;
+}
+
+#nav_height2 {
+	height: 48px;
+}
+/* 상단css less에 먹어서 임의로 줄임 end*/
+a {
+	list-style: none;
+}
+
+#color_chart {
+	width: 760px;
+}
+
+/* 두번째 줄 남여 성비 나타내는 차트 높이*/
+#card-body {
+	height: 55px;
+}
+/* 두번째 줄 남녀 성비 나타내는 차트 안먹어서 따로 값줌*/
+#gender_bar {
+	width: 650px;
+	margin-left: 10px; /* 이거 주면 옆에 마진으로 떨어짐!!!*/
+}
+
+/*회원정보 테이블 넓이*/
+#member_table {
+	width: 610px;
+	margin-right: -150px;
+}
+
+#color_map {
+	width: 400px;
+	float: left;
+}
+
+#Caravan_txt {
+	font-size: 20px;
+}
+
+/* 버튼 색변경 */
+button {
+	width: 140px;
+	height: 35px;
+	font-size: 15px;
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background: #222e3c;
+	color: #fff;
+}
+
+/* 카라반정보들 버튼 색변경 */
+.caravan_btn>a {
+	color: #fff;
+	border-style: none;
+	outline: none;
+	text-decoration: none;
+	border: 2px color #4298cc;
+}
+
+.caravan_btn>a.hover {
+	background: #4298cc;
+	color: #222e3c;
+}
+
+/*회원정보 글씨css*/
+#member {
+	font-size: 18px;
+	font-weight: bold;
+}

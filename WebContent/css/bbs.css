@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'SeoulHangangM';
+	src: url("../font/SeoulHangangM.eot");
+	src: url("../font/SeoulHangangM.eot#iefix") format('embedded-opentype'),
+		url("../font/SeoulHangangM.woff2") format('woff2'),
+		url("../font/SeoulHangangM.woff") format('woff'),
+		url("../font/SeoulHangangM.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'malgun';
+	src: url("../font/NanumBarunpenR.eot");
+	src: url("../font/NanumBarunpenR.eot#iefix") format('embedded-opentype'),
+		url("../font/NanumBarunpenR.woff") format('woff'),
+		url("../font/NanumBarunpenR.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'SeoulNamsanL';
+	src: url("../font/SeoulNamsanL.eot");
+	src: url("../font/SeoulNamsanL.eot#iefix") format('embedded-opentype'),
+		url("../font/SeoulNamsanL.woff2") format('woff2'),
+		url("../font/SeoulNamsanL.woff") format('woff'),
+		url("../font/SeoulNamsanL.ttf") format('truetype');
+}
+
+@import "compass/css3";
+
+.clear {
+	clear: both;
+}
+
+a {
+	color: inherit;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.navbar-brand {
+	margin: 0;
+	padding: 0;
+}
+
+/*게시판*/
+.container {
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.navbar-default{
+height:155px;
+border : 1px solid #fff;
+background:#fff; /*게시판 배경,선 없애기*/
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000;
+  background-color:#fff;
+}
+
