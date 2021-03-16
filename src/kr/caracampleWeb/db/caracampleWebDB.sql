@@ -9,7 +9,7 @@ create table managers(
 );
 
 insert into managers(managerID, managerPW, managerName, managerEmail)
-values('admin','1234','¿ÀÀ¯Á¤','yujeong@naver.com');
+values('admin','1234','yujeong','yujeong@naver.com');
 
 select * from managers;
 
